@@ -1,0 +1,56 @@
+{% extends 'partials/nav.html' %}
+{% load static %}
+
+{% block content %}
+
+<!--Contact section starts-->
+<section id="contact">
+    <h3>get in touch</h3>
+    <div class="contact-us">
+        <div class="contact-form">
+            <form action="">
+                <div class="form-control">
+                <label for="firstname">Name</label>
+                <input type="text" name="firstname" id="firstname">
+                </div>
+                
+
+                <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                </div>
+
+                <div class="form-control">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject">
+                </div>
+
+                <div class="form-control">
+                    <label for="text-area">Message</label>
+                    <textarea name="text-area" id="text-area" cols="30" rows="10">Message....</textarea>
+                </div>
+        
+                <input type="submit" value="Send Message">
+
+            </form>
+        </div>
+
+        <div>
+            <address class="address">
+                <h5>Address</h5>
+                <p>5th Ngong' Avenue, Nairobi.</p>
+                <br>
+                <h5>Phone</h5>
+                <a href="#">+254786994746</a>
+                <br>
+                <br>
+                <h5>Email Address</h5>
+                <p>realestate@gmail.com</p>
+                
+            </address>
+        </div>
+    </div>
+</section>
+<!--Contact section ends-->
+
+{% endblock content %}

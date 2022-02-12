@@ -1,0 +1,22 @@
+{% extends 'partials/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<header>
+    <!--navbar-->
+    <nav>
+        <!--logo-->
+        <img src="" alt="" class="logo">
+        <ul class="main-nav">
+            <li><a href="">home</a></li>
+            <li><a href="">services</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="{% url 'contact' %}">contact</a></li>
+        </ul>
+    </nav>
+
+    
+</header>
+
+{% endblock content %}
